@@ -13,11 +13,11 @@ public class MyReadListener implements ActionListener {
 
         for(int i = 0;i<256;i++){
 
-            /*JCheckBox check = (JCheckBox) checkBoxList.get(i);
+            JCheckBox check = (JCheckBox) BeatBox.checkBoxList.get(i);
             if(check.isSelected()){
                 checkBoxState[i] = true;
             }
-            */
+
         }
         try{
             FileOutputStream fileStream = new FileOutputStream(new File("CheckBox.ser"));

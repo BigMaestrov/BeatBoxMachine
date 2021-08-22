@@ -8,7 +8,7 @@ import java.awt.event.*;
 
 public class BeatBox {
     JPanel mainPanel;
-    ArrayList<JCheckBox> checkBoxList;
+    static ArrayList<JCheckBox> checkBoxList;
     Sequencer sequencer;
     Sequence sequence;
     Track track;
